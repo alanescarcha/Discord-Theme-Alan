@@ -38,6 +38,6 @@ div[data-list-item-id="guildsnav___home"] {
 #app-mount .guilds-1SWlCJ .tutorialContainer-2sGCg9 .homeIcon-FuNwkv{
   display: none;
 }
-.markup-2BOw-j a {
+.markup-2BOw-j a, .filenameLinkWrapper-1-14c5, a.fileNameLink-9GuxCo, a.metadataName-14STf- {
     color: rgba(125,125,125,1);
 }

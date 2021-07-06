@@ -1,0 +1,43 @@
+/**
+ * @name Alan
+ * @author Alan
+ * @version 1.0.0
+ * @description Private Theme :3
+ * @source https://alanescarcha.github.io/web-portafolio/BasicBackground.css
+ * @website https://alanescarcha.com
+ * @authorId 343042998835347458
+*/
+
+@import url('https://alanescarcha.github.io/web-portafolio/BasicBackground.css');
+
+:root {
+  --background: url('https://i.imgur.com/7SbtKvw.png');
+  --backgroundsize: cover;
+  --backgroundblur: 10px;
+  --popout: var(--background);
+  --popoutsize: var(--backgroundsize);
+  --popoutblur: 5px;
+  --transparencycolor: 0,0,0;
+  --accentcolor: 15,15,15,0.85;
+  --backdrop: rgba(0,0,0,0.85);
+  --textshadow: transparent;
+  --transparencyalpha: 0.5;
+  --messagetransparency: 0.5;
+  --guildchanneltransparency: 0.3;
+  --memberlisttransparency: 0.5;
+  --font: Whitney;
+  --backdropsize: var(--background-size);
+  --backdropblur: 0px;
+  --version1_0_5: none;
+  --home-image: url('https://i.imgur.com/2Qtv8gR.gif');
+}
+
+div[data-list-item-id="guildsnav___home"] {
+	background: var(--home-image) top center/110% no-repeat;
+}
+#app-mount .guilds-1SWlCJ .tutorialContainer-2sGCg9 .homeIcon-FuNwkv{
+  display: none;
+}
+.markup-2BOw-j a {
+    color: rgba(125,125,125,1);
+}
